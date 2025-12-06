@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio M. Rizky Rinaldy</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <h1>Welcome to My Portofolio</h1>
+            <ul>
+                <li><a href="#home">Beranda</a></li>
+                <li><a href="#about">Tentang</a></li>
+                <li><a href="#projects">Proyek</a></li>
+                <li><a href="#contact">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <img src="image/profile_image.png" alt="Foto Profil Anda" class="profile-img">
+                <h2>Hi there, My Name is M.  Rizky Rinaldy</h2>
+                <h1>Web Developer</h1>
+                <p>Mengubah ide menjadi pengalaman web yang cepat, indah, dan responsif.</p>
+                <a href="#projects" class="btn primary">Lihat Proyek Saya</a>
+            </div>
+        </section>
+
+        <section id="about" class="container">
+            <h2>About Me 🧑‍💻</h2>
+            <p style="align-content: center;">Saya Mahasiswa Jurusan Tekhnik Informatika di Universitas Islam Kalimantan, dan memahami beberapa bahasa pemograman seperti CSS, Java Script, & Python.
+                Sudah 1,5 tahun bergabung dengan Tim General Affair di PT. Sefas Pelindotama Branch Banjarmasin. Saya Terbiasa bekerja dengan teliti dan komunikatif dalam tim. Dengan menerapkan skill saya dibidang IT  dan pengalaman sebagai Tim Lapangan GA saya tertarik dalam otomatisasi SIstem Pengelolaan dan Manajemen di G</p>
+            <p>Saya memiliki pengalaman 5 tahun dalam dunia pekerjaan baik bidang Manufaktur dan Distributor Logistik. Saya mencari kesempatan untuk menggali lebih dalam potensi saya dan memberikan dampak nyata.</p>
+            <div class="skills-grid">
+                <h3>Skills:</h3>
+                <ul>
+                    <li>Materials Handling Equipment</li>
+                    <li>Shipping and Receiving</li>
+                    <li>Good Comunication</li>
+                    <li>Time Management</li>
+                </ul>
+            </div>
+        </section>
+        <section id="experience" class="container">
+            <h2>Pengalaman Kerja 💼</h2>
+            <div class="experience-grid">
+                
+                <div class="job-card">
+                    <h3>General Support - Messenger</h3>
+                    <p class="company">PT. Bintang Mitra Dayasembada - PT. Sefas Pelindotama</p>
+                    <p class="duration">2024 - 2025</p>
+                    <ul class="job-description">
+                        <li>Melakukan Pengantaran Invoice ke Costumer.</li>
+                        <li>Pengelolaan Kendaraan Operasional Kantor.</li>
+                        <li>Manajemen Kebersihan Area Office & Warehouse.</li>
+                    </ul>
+                </div>
+
+                <div class="job-card">
+                    <h3>Chief Of Floor - Picker</h3>
+                    <p class="company">PT. Sumber Alfaria Trijaya TBK</p>
+                    <p class="duration">2022 - 2024</p>
+                    <ul class="job-description">
+                        <li>Mengelola Tim dalam Menyelesaikan Target Pengiriman agar tepat waktu.</li>
+                        <li>Mengecek ketersediaan Item di tiap zona picking.</li>
+                    </ul>
+                </div>
+
+                <div class="job-card">
+                    <h3>Mixing Operator</h3>
+                    <p class="company">CV. Bintang Banua Abadi</p>
+                    <p class="duration">2020 - 2022</p>
+                    <ul class="job-description">
+                        <li>Mengatur Produksi Harian dan menentukan jumlah produksi.</li>
+                        <li>Mengelola Stock barang.</li>
+                        <li>Melakukan Pengecekan Kualitas Barang Hasil Produksi.</li>
+                    </ul>
+                </div>
+                
+            </div>
+        </section>
+        <section id="projects" class="container">
+            <h2>Proyek Terbaru 🚀</h2>
+            <div class="project-grid">
+                
+                <div class="project-card">
+                    <h3>P2H Mobil Operasional</h3>
+                    <p>Membuat Platform sederhana untuk monitoring pengecekan harian **javascript* untuk UI dan **Node.js** untuk API, lengkap dengan sistem perawatan dan histori service.</p>
+                    <p class="tech-stack">**Progres:** Dalam tahap penambahan data aset</p>
+                    <a href="#" class="btn secondary" target="_blank">Demo Live</a>
+                    <a href="#" class="btn secondary" target="_blank">Kode (GitHub)</a>
+                </div>
+
+                <div class="project-card">
+                    <h3>Sistem Manajemen Sparepart Unit Operasional</h3>
+                    <p>Aplikasi web untuk manajemen Kondisi Part Sebuah Kendaraan Operasional. Fitur: Real time Condition, notifikasi ketika mendekati masa service part. Dibangun dengan **node.js** dan **mySQL**.</p>
+                    <p class="tech-stack">**Progres:** Melengkapi Database Part yang terpasang</p>
+                    <a href="#" class="btn secondary" target="_blank">Demo Live</a>
+                    <a href="#" class="btn secondary" target="_blank">Kode (GitHub)</a>
+                </div>
+
+                </div>
+        </section>
+
+        <section id="contact" class="container">
+            <h2>Hubungi Saya ✉️</h2>
+            <p>Tertarik untuk bekerja sama atau sekadar menyapa? Kirimkan saya pesan!</p>
+            <form id="contact-form">
+                <label for="name">Nama:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Pesan:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <button type="submit" class="btn primary">Kirim Pesan</button>
+                <p id="form-status" style="display:none; margin-top: 15px; color: green;">Pesan berhasil dikirim!</p>
+            </form>
+            
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/rizky-rinaldy-profile" target="_blank">LinkedIn</a> |
+                <a href="https://github.com/rizkyrinaldyschwork-ui" target="_blank">GitHub</a> |
+                <a href="mailto:rizkyrinaldy.schwork@gmail.com">rizkyrinaldy.schwork@gmail.com</a>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2025 M. Rizky Rinaldy. Dibuat dengan 💜.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
