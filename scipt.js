@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', () => {
             // 1. Ambil data (opsional)
             const name = document.getElementById('name').value;
             const email = document.getElementById('email').value;
-            const message = document.getElementById('message').value;
+            const message = document.getElementById('messege').value;
 
             // 2. Reset formulir
             contactForm.reset();
